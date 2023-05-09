@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Proyecto Modal</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="modal">
+            <div class="title">
+                <h2>En que ciudad estas?</h2>
+            </div>
+            <div class="body">
+                <div class="texto">
+                    <p>Recuerda que nuestros precios y cobertura de productos de supermercado varian segun tu ubicacion</p>
+                    <p>Para brindarte una mejor experiencia, selecciona tu departamento y ciudad</p>
+                </div>
+                <div class="inputs">
+                    <input placeholder="Departamentos" list="departamentos" class="listas">
+                    <datalist id="departamentos">
+                        <option value=" "></option>
+                        <option value="Atlantico"></option>
+                        <option value="Bolivar"></option>
+                        <option value="Sucre"></option>
+                    </datalist>
+                    <input placeholder="Ciudades" list="ciudades" class="listas">
+                    <datalist id="ciudades">
+                        <option value=" "></option>
+                        <option value="Barranquilla"></option>
+                        <option value="Santamarta"></option>
+                        <option value="Cartagena"></option>
+                    </datalist>
+                </div>
+                <div class="button_box">
+                    <button class="button">
+                        ELEGIR
+                    </button>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
